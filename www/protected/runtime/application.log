@@ -4068,3 +4068,28 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://yiicms.loc/
 ---
+2017/02/10 23:55:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiicms.loc\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\home\yiicms.loc\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiicms.loc\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Y:\home\yiicms.loc\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiicms.loc/
+---
+2017/02/11 00:01:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/9ae55c6d/contents.css".' in Y:\home\yiicms.loc\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\home\yiicms.loc\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9ae55c6d...')
+#1 Y:\home\yiicms.loc\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Y:\home\yiicms.loc\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9ae55c6d/contents.css
+---
+2017/02/11 00:08:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/9ae55c6d/contents.css".' in Y:\home\yiicms.loc\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\home\yiicms.loc\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9ae55c6d...')
+#1 Y:\home\yiicms.loc\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Y:\home\yiicms.loc\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9ae55c6d/contents.css
+---
